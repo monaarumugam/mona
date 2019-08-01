@@ -1,0 +1,44 @@
+class string
+{
+final static int NO_OF_CHAR = 256;
+static int max_distinct_char(String toLowercase(),int n)
+{
+int count[]=new int[NO_OF_CHARS];
+for(int i=0;i<n;i++)
+{
+count[str.charArt(i)]++;
+}
+}
+return max_distinct;
+}
+static int smallestSubstr_maxDistictChar(String str)
+{
+int n=str.length();
+int max_distinct=max_distinct_char(str,n);
+int minl=n;
+for(int i=0;i<n;i++)
+{
+for(int j-0;j<n;j++)
+{
+String subs =null;
+if(i<j)
+subs=str.substring(i,j);
+else
+subs=str.substring(j,i);
+int subs_length=sub.length();
+int sub_distinctchar=max_distinct_char(subs,subs_length);
+{
+if(subs_length<minl&&max_length_distinct==sub_distinct_char)
+{
+minl=subs_length;
+}
+}
+return minl;
+}
+static public void main(String[] args)
+{
+String str="mona"
+int len =smallestSubstr_maxDistinctChar(str);
+System.out.println("The length of substring is:"+"consisting of max distinct"+"characters :"+len);
+}
+}
